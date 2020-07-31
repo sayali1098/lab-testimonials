@@ -1,0 +1,55 @@
+h2 {
+  margin-left: 100px;
+  font-weight: bold;
+}
+
+.userdata {
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+  width: 800px;
+  background: lightgray;
+}
+
+li {
+  list-style: none;
+}
+
+p {
+  font-size: 18px;
+}
+
+
+.form {
+  display: flex;
+  flex-direction: column;
+  padding: 80px;
+  margin-left: 100px;
+  border: 2px solid lightgray;
+  border-radius: 45px 0px 45px;
+  width: 800px;
+}
+
+label {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+input {
+  width: 700px;
+  height: 20px;
+}
+
+#exp {
+  height: 70px;
+}
+
+button {
+  width: 100px;
+  padding: 20px;
+  font-weight: bold;
+  font-size: 15px;
+  background: orangered;
+  color: white;
+  border: 1px solid orangered;
+}

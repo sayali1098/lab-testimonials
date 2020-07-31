@@ -1,0 +1,22 @@
+<h2>Here Is What Our Prograds Have To Say</h2>
+
+<ul class="userdata">
+  <li *ngFor="let data of prograd">
+    <h3>{{data.name}}</h3>
+    <p>{{data.experience}}</p>
+    <hr>
+  </li>
+</ul>
+
+
+<div class="form">
+  <div>
+    <label for="prograd-name">NAME</label><br><br>
+    <input type="text" [(ngModel)]="review.name"><br><br>
+  </div>
+  <div>
+    <label for="prograd-experience">SHARE YOUR EXPERIENCE</label><br><br>
+    <input type="text" id="exp" [(ngModel)]="review.experience"><br><br>
+  </div>
+  <button (click)="addprograd(review)">POST</button>
+</div>
